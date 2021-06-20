@@ -1,0 +1,51 @@
+.nav {
+    height: 50px;
+    background-color: #303030;
+    position: relative;
+    }
+    .navigation {
+        height: 50px;
+        width: 35%;
+    }
+  .inline-block {
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: #242424;
+    width: 60px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: -2px;
+    color: white;
+  }
+  .left {
+    float: left;
+    height: 700px;
+    background-color: lightblue;
+    width: 29%;
+    text-align: center;
+    background-color: #fa7e02;
+  }
+  .right {
+    float: left;
+    background-color: #4a4a4a;
+    height: 700px;
+    width: 70%;
+    text-align: center;
+  }
+  .top {
+      margin-top: 25px;
+      height: 150px;
+      width: 150px;
+      background-image: file('/illy.jpg');
+      display: inline-block;
+      background-color: #c4c4c4
+    }
+  .relative {
+    background-color: lightblue;
+    display: flex;
+    position: relative;
+  }
+  .centermargin {
+width: .5%;
+  }
