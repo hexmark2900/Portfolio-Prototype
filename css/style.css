@@ -201,7 +201,7 @@
     text-align: left;
     margin-left: 40%;
   }
-  
+
   #fcc {
     grid-area: fcc;
     background-image: url("../images/fcc.png");
@@ -253,4 +253,17 @@
     color: white;
     font-size: 18px;
     border-bottom: 5px solid #FF6200;
+  }
+
+  @media only screen and (max-width: 600){
+    #categoryGrid {
+      grid-template-rows: 480px 480px 480px 480px 480px;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+        "fcc"
+        "wef"
+        "fitBuddy"
+        "yuanApp"
+        ;
+    }
   }
