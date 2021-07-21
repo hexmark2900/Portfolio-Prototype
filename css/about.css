@@ -22,12 +22,14 @@ body {
   .leftColumn {
     float: left;
     height: 100%;
-    width: 34.7%;
+    width: 35%;
     text-align: center;
     background-color: #262F34;
     position: fixed;
     display: table-row;
+    max-width: 100%;
   }
+
 
   .rightColumn {
     float: right;
@@ -38,7 +40,7 @@ body {
   }
 
   .myLogo {
-    margin-top: 17.5%;
+    margin-top: 12.5%;
     height: 15.5%;
     width: 25%;
     background-image: url('../images/mylogo.png');
@@ -140,7 +142,7 @@ body {
 
   p {
     color: rgb(230, 230, 230);
-    font-size: 1.12em;
+    font-size: 1.05em;
     text-align: center;
     font-weight: 400;
   }
@@ -155,7 +157,12 @@ body {
   }
 
   .bottom {
-    margin-top: 12.5%;
+    margin-top: 1.5%;
+    position: fixed;
+    margin-bottom: 15%;
+    align-items: center;
+    text-align: center;
+    width: 35%;
   }
 
   a:link {
